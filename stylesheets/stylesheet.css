@@ -63,7 +63,7 @@ nav {
     border: 3px solid #6511b5;
     border-radius: 10px;
     text-align: center;
-    font: "ff-enzo-web", sans-serif;
+    font: "ff-enzo-web", helvetica, sans-serif;
     font-size: 1.5em;
     -moz-box-sizing: border-box;
     /* Firefox 1, probably can drop this */
@@ -98,14 +98,14 @@ h1 {
   font-size: 3.8em;
   line-height: 1.35em;
   text-align: center;
-  font: "ff-enzo-web", sans-serif; }
+  font: "ff-enzo-web", helvetica, sans-serif; }
 
 h2 {
   clear: both;
   font-size: 3em;
   line-height: 1.35em;
   text-align: center;
-  font: "ff-enzo-web", sans-serif; }
+  font: "ff-enzo-web", helvetica, sans-serif; }
 
 h3 {
   text-align: center;
@@ -117,28 +117,41 @@ h3 {
   box-sizing: border-box;
   /* Everything else */
   padding: 3px;
-  font: "ff-enzo-web", sans-serif; }
+  font: "ff-enzo-web", helvetica, sans-serif; }
 
 .separator {
   height: 85px;
   color: transparent;
   overflow: hidden; }
 
-.aboutme {
+.about_me {
   margin: 0 auto;
   width: 100%; }
-  .aboutme ul {
+  .about_me ul {
     max-width: 80%;
     margin: 30px auto;
     font-size: 1.25em;
     line-height: 1.35em;
-    font: "ff-enzo-web", sans-serif; }
-    .aboutme ul li {
+    font: "ff-enzo-web", helvetica, sans-serif; }
+    .about_me ul li {
       margin: 20px 0; }
-  .aboutme .skills, .aboutme .interests {
+  .about_me .skills, .about_me .interests {
     float: left;
-    min-height: 500px;
-    margin: 20px 0 20px 70px; }
+    min-height: 660px;
+    margin: 20px auto;
+    padding-top: 20px;
+    background: #4063af;
+    color: white;
+    width: 100%; }
+    .about_me .skills ul, .about_me .interests ul {
+      background: #2260cd;
+      margin: 20px auto;
+      padding: 1px 5%; }
+    .about_me .skills h3, .about_me .interests h3 {
+      background: #2260cd;
+      width: 90%;
+      padding: 5px;
+      margin: 0 auto; }
 
 img {
   max-height: 300px;
@@ -155,7 +168,8 @@ img {
   padding: 20px 0;
   background: #4063af;
   max-width: 300px;
-  min-height: 630px; }
+  min-height: 630px;
+  color: white; }
   .project_card .project_name, .tumblr .project_name, .project_card .project_description, .tumblr .project_description, .tumblr .post_name {
     background: #2260cd;
     max-width: 80%;
@@ -172,7 +186,7 @@ img {
     box-sizing: border-box;
     /* Everything else */
     padding: 5px;
-    font: "ff-enzo-web", sans-serif; }
+    font: "ff-enzo-web", helvetica, sans-serif; }
   .project_card .buttons, .tumblr .buttons {
     margin: 0 auto;
     width: 80%; }
@@ -183,7 +197,8 @@ img {
       border: 3px solid #6511b5;
       margin: 20px 5px 0 5px;
       font-size: 1.25em;
-      background: #2c38af; }
+      background: #2c38af;
+      color: white; }
 
 .media {
   display: none;
@@ -220,7 +235,7 @@ img {
     box-sizing: border-box;
     /* Everything else */
     padding: 10px;
-    font: "ff-enzo-web", sans-serif; }
+    font: "ff-enzo-web", helvetica, sans-serif; }
   .tumblr .buttons {
     margin: 0 auto;
     width: 90%; }
@@ -249,7 +264,10 @@ img {
   .twitter #twitter-widget-0 {
     width: 100% !important; }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 700px) {
+  body {
+    background: green; }
+
   nav {
     display: none;
     display: hidden; }
@@ -262,7 +280,7 @@ img {
   h1 {
     font-size: 3.2em; }
 
-  .aboutme p {
+  .about_me p {
     line-height: 1.8em; }
 
   .project_card, .tumblr, .tumblr {
@@ -271,12 +289,20 @@ img {
 
   .project_card:nth-of-type(2n), .tumblr:nth-of-type(2n), .tumblr:nth-of-type(2n) {
     float: right; } }
-@media screen and (min-width: 868px) {
+@media screen and (min-width: 1000px) {
+  body {
+    background: yellow; }
+
   .project_card, .tumblr, .tumblr {
     float: left;
     margin: 40px 3%; }
 
   .project_card:nth-of-type(2n), .tumblr:nth-of-type(2n), .tumblr:nth-of-type(2n) {
-    float: left; } }
+    float: left; }
+
+  .skills, .interests {
+    max-width: 40%;
+    float: left;
+    margin: 50px; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
