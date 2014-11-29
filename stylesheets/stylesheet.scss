@@ -1,0 +1,330 @@
+@import "reset";
+
+@mixin picture {
+	width: 15em;
+	min-height: 15em;
+	margin: 0 auto;
+	background: grey;
+}
+
+$oblivion: #b9b2cd;
+
+$oldpaper: #a6866e;
+
+$background: #54b3d1;
+
+$cleanmetal: #316572;
+
+$borders: #6511b5;
+
+$skyblue: #2c38af;
+
+$azul: #4063af;
+
+$eyeblue: #2260cd;
+
+@mixin border-box {
+   -moz-box-sizing: border-box;   /* Firefox 1, probably can drop this */
+   -webkit-box-sizing: border-box;   /* Safari 3-4, also probably droppable */
+    box-sizing: border-box;   /* Everything else */
+}
+
+$enzo: "ff-enzo-web",sans-serif;
+
+body {
+	background: $background;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+nav { 
+	position: fixed;
+	background: $background;
+	width: 100%;
+	
+	li {
+		float: left;
+		width: 30%;
+		border: 3px solid $borders;
+		border-radius: 10px;
+		text-align: center;
+		font: $enzo;
+		font-size: 1.5em;
+		@include border-box;
+		padding: 10px 0px;
+		margin: 10px 5px;
+	}
+
+	li:nth-of-type(2) {
+		margin: 10px 5px;
+	}
+
+	li:hover {
+		background: $skyblue;
+		border: transparent;
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+}
+
+.logo {
+	clear: both;
+	margin: 60px auto 10px auto;
+	border-radius: 300px;
+	background: url("profile.png");
+	border: 5px solid $borders;
+	min-width: 300px;
+	min-height: 300px;
+
+	img {
+		min-height: 100px;
+		min-width: 100px;
+	}
+}
+
+h1 {
+	font-size: 3.8em;
+	line-height: 1.35em;
+	text-align: center;
+	font: $enzo;
+}
+
+h2 {
+	clear: both;
+	font-size: 3em;
+	line-height: 1.35em;
+	text-align: center;
+	font: $enzo;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2.2em;
+	@include border-box;
+	padding: 3px;
+	font: $enzo;
+}
+
+.separator {
+	height: 85px;
+	color: transparent;
+	overflow: hidden;	
+}
+
+.aboutme {
+	margin: 0 auto;
+	width: 100%;
+
+	ul {
+		max-width: 80%;
+		margin: 30px auto;
+		font-size: 1.25em;
+		line-height: 1.35em;
+		font: $enzo;
+
+		li {
+			margin: 20px 0;
+		}
+	}
+
+	.skills, .interests {
+		float: left;
+		min-height: 500px;
+		margin: 20px 0 20px 70px;
+	}
+}
+
+img {
+	max-height: 300px;
+	width: 100%;	
+}
+
+.project_card {
+	margin: 40px auto;
+	@include border-box;
+	padding: 20px 0;
+	background: $azul;
+	max-width: 300px;
+	min-height: 630px;
+
+	.project_name {
+		background: $eyeblue;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+	.project_description {
+		@extend .project_name;
+
+		 p {
+		 	width: 80%;
+			font-size: 1.1em;
+			line-height: 1.4em;
+			margin: 20px;
+			@include border-box;
+			padding: 5px;
+			font: $enzo;
+		}
+	}
+
+	.buttons {
+		margin: 0 auto;
+		width: 80%;
+
+		button {
+			width: 45%;
+			min-height: 40px;
+			border-radius: 10px;
+			border: 3px solid $borders;
+			margin: 20px 5px 0 5px;
+			font-size: 1.25em;
+			background: $skyblue;
+		}
+
+		button:hover {
+			@extend li:hover;
+		}
+	}
+}
+
+.media {
+	display: none;
+	border: 1px solid black;
+	border-radius: 10px;
+	@include border-box;
+	padding: 4px 10px 0 10px;
+	margin: 15px auto 0 auto;
+	width: 60%;
+	min-height: 50px;
+
+	img {
+		height: 25%;
+		width: 25%;
+		margin: 10px 5px;
+	}
+}
+
+.tumblr {
+	@extend .project_card;
+	margin: 20px auto;
+	padding: 10px;
+
+	.post_name {
+		@extend .project_name;
+	}
+
+	p {
+		width: 80%;
+		margin: 10px auto;
+		font-size: 1.1em;
+		line-height: 1.5em;
+		background: $eyeblue;
+		@include border-box;
+		padding: 10px;
+		font: $enzo;
+	}
+
+	.buttons {
+		margin: 0 auto;
+		width: 90%;
+
+		button {
+			width: 45%;
+			min-height: 40px;
+			border-radius: 10px;
+			margin: 10px 4px;
+			font-size: 1.25em;
+		}
+
+
+	}
+
+	.sharing {	
+		margin: 0 auto;
+		width: 80%;
+
+		button {
+			width: 100%;
+			border-radius: 10px;
+			margin: 0 auto;
+			min-height: 40px;
+		}
+	}
+
+	.media {
+
+		img {
+			height: 25%;
+			width: 25%;
+			margin: 10px 4px;
+		}
+	}
+}
+
+.twitter {
+	margin: 20px auto;
+	width: 80%;
+
+	#twitter-widget-0 {
+	      width: 100% !important;
+	    }
+}
+
+@media screen and (min-width: 680px) {
+
+	nav {
+		display: none;
+		display: hidden;
+	}
+
+	.logo {
+		clear: both;
+		margin: 20px 0;
+		float: left;
+	}
+
+	h1 {
+		font-size: 3.2em;
+	}
+
+	.aboutme p {
+		line-height: 1.8em;
+	}
+
+	.project_card, .tumblr {
+		float: left;
+		margin: 40px 4px;
+	}
+
+	.project_card:nth-of-type(2n), .tumblr:nth-of-type(2n) {
+		float: right;
+	}
+
+}
+
+@media screen and (min-width: 868px) {
+
+	.project_card, .tumblr {
+		float: left;
+		margin: 40px 3%;
+	}
+
+	.project_card:nth-of-type(2n), .tumblr:nth-of-type(2n) {
+		float: left;
+	}
+
+}
+
+
+
+
+
+
