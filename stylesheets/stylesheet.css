@@ -301,8 +301,6 @@ img {
     float: left; }
 
   .skills, .interests {
-    max-width: 40%;
-    float: left;
-    margin: 50px; } }
+    max-width: 45%; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
