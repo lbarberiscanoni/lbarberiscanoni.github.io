@@ -274,6 +274,7 @@ h3 {
 	@extend .project_card;
 	margin: 20px auto;
 	padding: 10px;
+	max-height: 630px;
 
 	.post_name {
 		@extend .project_name;
