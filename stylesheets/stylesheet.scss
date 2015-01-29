@@ -29,6 +29,18 @@ $eyeblue: #2260cd;
     box-sizing: border-box;   /* Everything else */
 }
 
+@mixin backDropShadow {
+        -moz-box-shadow: -7px -7px 7px #3B4990;
+        -webkit-box-shadow: -7px -7px 7px #3B4990;
+        box-shadow: -7px -7px 7px #3B4990;
+}
+
+@mixin roundDropShadow {
+        -moz-box-shadow: 0 0 10px #3B4990;
+       	-webkit-box-shadow: 0 0 10px #3B4990;
+	box-shadow: 0 0 10px #3B4990;
+}
+
 $enzo: "ff-enzo-web",helvetica, sans-serif;
 
 body {
@@ -129,14 +141,13 @@ h3 {
 	background: $azul;
 	color: white;
 	width: 100%;
-      	-moz-box-shadow: -7px -7px 7px #3B4990;
-      	-webkit-box-shadow: -7px -7px 7px #3B4990; 
-      	box-shadow: -7px -7px 7px #3B4990;
+	@include backDropShadow;
 
 	ul {
 		background: $eyeblue;
 		margin: 20px auto;
 		padding: 1px 5%;
+		@include roundDropShadow;
 	}
 
 	h3 {
@@ -144,6 +155,7 @@ h3 {
 		width: 90%;
 		padding: 5px;
 		margin: 0 auto;
+		@include roundDropShadow;
 	}
 }
 
@@ -155,18 +167,18 @@ h3 {
 	max-width: 300px;
 	min-height: 630px;
 	color: white;
-      	-moz-box-shadow: -7px -7px 7px #3B4990;
-      	-webkit-box-shadow: -7px -7px 7px #3B4990;
-      	box-shadow: -7px -7px 7px #3B4990;
+	@include backDropShadow;
 
 	.project_name {
 		background: $eyeblue;
 		max-width: 80%;
 		margin: 0 auto;
+		@include roundDropShadow;
 	}
 
 	.project_description {
 		@extend .project_name;
+		@include roundDropShadow;
 
 		 p {
 		 	width: 80%;
@@ -281,13 +293,11 @@ h3 {
 	margin: 20px auto;
 	padding: 10px;
 	max-height: 630px;
-      	-moz-box-shadow: -7px -7px 7px #3B4990;
-     	-webkit-box-shadow: -7px -7px 7px #3B4990;
-      	box-shadow: -7px -7px 7px #3B4990;
-
+	@include backDropShadow;
 
 	.post_name {
 		@extend .project_name;
+		@include roundDropShadow;
 	}
 
 	p {
@@ -299,6 +309,7 @@ h3 {
 		@include border-box;
 		padding: 10px;
 		font: $enzo;
+		@include roundDropShadow;
 	}
 
 	.buttons {

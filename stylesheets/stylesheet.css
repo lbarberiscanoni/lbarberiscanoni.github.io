@@ -138,12 +138,18 @@ h3 {
   .skills ul, .interests ul {
     background: #2260cd;
     margin: 20px auto;
-    padding: 1px 5%; }
+    padding: 1px 5%;
+    -moz-box-shadow: 0 0 10px #3B4990;
+    -webkit-box-shadow: 0 0 10px #3B4990;
+    box-shadow: 0 0 10px #3B4990; }
   .skills h3, .interests h3 {
     background: #2260cd;
     width: 90%;
     padding: 5px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    -moz-box-shadow: 0 0 10px #3B4990;
+    -webkit-box-shadow: 0 0 10px #3B4990;
+    box-shadow: 0 0 10px #3B4990; }
 
 .project_card, .tumblr {
   margin: 40px auto;
@@ -164,20 +170,27 @@ h3 {
   .project_card .project_name, .tumblr .project_name, .project_card .project_description, .tumblr .project_description, .tumblr .post_name {
     background: #2260cd;
     max-width: 80%;
-    margin: 0 auto; }
-  .project_card .project_description p, .tumblr .project_description p {
-    width: 80%;
-    font-size: 1.1em;
-    line-height: 1.4em;
-    margin: 20px;
-    -moz-box-sizing: border-box;
-    /* Firefox 1, probably can drop this */
-    -webkit-box-sizing: border-box;
-    /* Safari 3-4, also probably droppable */
-    box-sizing: border-box;
-    /* Everything else */
-    padding: 5px;
-    font: "ff-enzo-web", helvetica, sans-serif; }
+    margin: 0 auto;
+    -moz-box-shadow: 0 0 10px #3B4990;
+    -webkit-box-shadow: 0 0 10px #3B4990;
+    box-shadow: 0 0 10px #3B4990; }
+  .project_card .project_description, .tumblr .project_description {
+    -moz-box-shadow: 0 0 10px #3B4990;
+    -webkit-box-shadow: 0 0 10px #3B4990;
+    box-shadow: 0 0 10px #3B4990; }
+    .project_card .project_description p, .tumblr .project_description p {
+      width: 80%;
+      font-size: 1.1em;
+      line-height: 1.4em;
+      margin: 20px;
+      -moz-box-sizing: border-box;
+      /* Firefox 1, probably can drop this */
+      -webkit-box-sizing: border-box;
+      /* Safari 3-4, also probably droppable */
+      box-sizing: border-box;
+      /* Everything else */
+      padding: 5px;
+      font: "ff-enzo-web", helvetica, sans-serif; }
   .project_card .buttons, .tumblr .buttons {
     margin: 0 auto;
     width: 80%; }
@@ -263,6 +276,10 @@ h3 {
   -moz-box-shadow: -7px -7px 7px #3B4990;
   -webkit-box-shadow: -7px -7px 7px #3B4990;
   box-shadow: -7px -7px 7px #3B4990; }
+  .tumblr .post_name {
+    -moz-box-shadow: 0 0 10px #3B4990;
+    -webkit-box-shadow: 0 0 10px #3B4990;
+    box-shadow: 0 0 10px #3B4990; }
   .tumblr p {
     width: 80%;
     margin: 10px auto;
@@ -276,7 +293,10 @@ h3 {
     box-sizing: border-box;
     /* Everything else */
     padding: 10px;
-    font: "ff-enzo-web", helvetica, sans-serif; }
+    font: "ff-enzo-web", helvetica, sans-serif;
+    -moz-box-shadow: 0 0 10px #3B4990;
+    -webkit-box-shadow: 0 0 10px #3B4990;
+    box-shadow: 0 0 10px #3B4990; }
   .tumblr .buttons {
     margin: 0 auto;
     width: 90%; }
