@@ -23,6 +23,8 @@ $azul: #4063af;
 
 $eyeblue: #2260cd;
 
+$phi: 1.61803398875;
+
 @mixin border-box {
    -moz-box-sizing: border-box;   /* Firefox 1, probably can drop this */
    -webkit-box-sizing: border-box;   /* Safari 3-4, also probably droppable */
@@ -135,12 +137,12 @@ h3 {
 
 .skills, .interests {
 	float: left;
-	min-height: 660px;
 	margin: 20px auto;
 	padding-top: 20px;
 	background: $azul;
 	color: white;
 	width: 100%;
+	height: 161.803398875%;
 	@include backDropShadow;
 
 	ul {
@@ -165,7 +167,7 @@ h3 {
 	padding: 20px 0;
 	background: $azul;
 	max-width: 300px;
-	min-height: 630px;
+	height: 485.410196625px;
 	color: white;
 	@include backDropShadow;
 
@@ -292,7 +294,6 @@ h3 {
 	@extend .project_card;
 	margin: 20px auto;
 	padding: 10px;
-	max-height: 630px;
 	@include backDropShadow;
 
 	.post_name {

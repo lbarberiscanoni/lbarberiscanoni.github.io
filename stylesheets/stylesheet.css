@@ -126,12 +126,12 @@ h3 {
 
 .skills, .interests {
   float: left;
-  min-height: 660px;
   margin: 20px auto;
   padding-top: 20px;
   background: #4063af;
   color: white;
   width: 100%;
+  height: 161.803398875%;
   -moz-box-shadow: -7px -7px 7px #3B4990;
   -webkit-box-shadow: -7px -7px 7px #3B4990;
   box-shadow: -7px -7px 7px #3B4990; }
@@ -162,7 +162,7 @@ h3 {
   padding: 20px 0;
   background: #4063af;
   max-width: 300px;
-  min-height: 630px;
+  height: 485.410196625px;
   color: white;
   -moz-box-shadow: -7px -7px 7px #3B4990;
   -webkit-box-shadow: -7px -7px 7px #3B4990;
@@ -272,7 +272,6 @@ h3 {
 .tumblr {
   margin: 20px auto;
   padding: 10px;
-  max-height: 630px;
   -moz-box-shadow: -7px -7px 7px #3B4990;
   -webkit-box-shadow: -7px -7px 7px #3B4990;
   box-shadow: -7px -7px 7px #3B4990; }
