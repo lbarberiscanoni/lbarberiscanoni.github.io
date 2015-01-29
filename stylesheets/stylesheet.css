@@ -142,9 +142,6 @@ h3 {
     padding: 5px;
     margin: 0 auto; }
 
-img {
-  max-width: 100%; }
-
 .project_card, .tumblr {
   margin: 40px auto;
   -moz-box-sizing: border-box;
@@ -189,7 +186,7 @@ img {
       color: white; }
 
 .media {
-  display: inline-block;
+  display: none;
   border: 1px solid black;
   border-radius: 10px;
   -moz-box-sizing: border-box;
@@ -198,16 +195,17 @@ img {
   /* Safari 3-4, also probably droppable */
   box-sizing: border-box;
   /* Everything else */
-  padding: 4px 10px 0 10px;
+  padding: 4px 10px;
   margin: 15px auto 0 auto;
-  width: 60%;
+  width: 65%;
+  max-width: 180px;
   min-height: 50px;
   /* pop-up text */
   /* pop-up text arrow */
   /* text pops up when icon is in hover state */ }
   .media img {
     max-width: 40px;
-    margin: 5px 0 5px 5px; }
+    margin: 3px; }
   .media a {
     border-radius: 4px;
     text-decoration: none;
@@ -215,10 +213,10 @@ img {
     display: inline-block;
     width: 50px;
     height: 50px;
-    -o-transition: all .5s;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
     -webkit-font-smoothing: antialiased; }
   .media a:hover {
     background: blue; }
@@ -278,14 +276,6 @@ img {
       border-radius: 10px;
       margin: 10px 4px;
       font-size: 1.25em; }
-  .tumblr .sharing {
-    margin: 0 auto;
-    width: 80%; }
-    .tumblr .sharing button {
-      width: 100%;
-      border-radius: 10px;
-      margin: 0 auto;
-      min-height: 40px; }
 
 .twitter {
   margin: 20px auto;
@@ -297,11 +287,6 @@ img {
   nav {
     display: none;
     display: hidden; }
-
-  .logo {
-    clear: both;
-    margin: 20px 0;
-    float: left; }
 
   h1 {
     font-size: 3.2em; }

@@ -144,10 +144,6 @@ h3 {
 	}
 }
 
-img {
-	max-width: 100%;	
-}
-
 .project_card {
 	margin: 40px auto;
 	@include border-box;
@@ -199,32 +195,32 @@ img {
 }
 
 .media {
-	// display: none;
-	display: inline-block;
+	display: none;
 	border: 1px solid black;
 	border-radius: 10px;
 	@include border-box;
-	padding: 4px 10px 0 10px;
+	padding: 4px 10px;
 	margin: 15px auto 0 auto;
-	width: 60%;
+	width: 65%;
+	max-width: 180px;
 	min-height: 50px;
 
 	img {
 		max-width: 40px;
-		margin: 5px 0 5px 5px;
+		margin: 3px;
 	}
 
 	a {
-	  border-radius:4px;
+	  border-radius: 4px;
 	  text-decoration:none;
 	  font-family: $enzo;
 	  display: inline-block;
 	  width: 50px;
 	  height: 50px;	
-	  -o-transition:all .5s;
-	  -webkit-transition: all .5s;
-	  -moz-transition: all .5s;
-	  transition: all .5s;
+	  -o-transition:all 1s;
+	  -webkit-transition: all 1s;
+	  -moz-transition: all 1s;
+	  transition: all 1s;
 	   -webkit-font-smoothing: antialiased;
 	}
 
@@ -308,18 +304,6 @@ img {
 
 
 	}
-
-	.sharing {	
-		margin: 0 auto;
-		width: 80%;
-
-		button {
-			width: 100%;
-			border-radius: 10px;
-			margin: 0 auto;
-			min-height: 40px;
-		}
-	}
 }
 
 .twitter {
@@ -336,12 +320,6 @@ img {
 	nav {
 		display: none;
 		display: hidden;
-	}
-
-	.logo {
-		clear: both;
-		margin: 20px 0;
-		float: left;
 	}
 
 	h1 {
