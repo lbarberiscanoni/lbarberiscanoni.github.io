@@ -131,7 +131,10 @@ h3 {
   padding-top: 20px;
   background: #4063af;
   color: white;
-  width: 100%; }
+  width: 100%;
+  -moz-box-shadow: -7px -7px 7px #3B4990;
+  -webkit-box-shadow: -7px -7px 7px #3B4990;
+  box-shadow: -7px -7px 7px #3B4990; }
   .skills ul, .interests ul {
     background: #2260cd;
     margin: 20px auto;
@@ -154,7 +157,10 @@ h3 {
   background: #4063af;
   max-width: 300px;
   min-height: 630px;
-  color: white; }
+  color: white;
+  -moz-box-shadow: -7px -7px 7px #3B4990;
+  -webkit-box-shadow: -7px -7px 7px #3B4990;
+  box-shadow: -7px -7px 7px #3B4990; }
   .project_card .project_name, .tumblr .project_name, .project_card .project_description, .tumblr .project_description, .tumblr .post_name {
     background: #2260cd;
     max-width: 80%;
@@ -253,7 +259,10 @@ h3 {
 .tumblr {
   margin: 20px auto;
   padding: 10px;
-  max-height: 630px; }
+  max-height: 630px;
+  -moz-box-shadow: -7px -7px 7px #3B4990;
+  -webkit-box-shadow: -7px -7px 7px #3B4990;
+  box-shadow: -7px -7px 7px #3B4990; }
   .tumblr p {
     width: 80%;
     margin: 10px auto;
