@@ -171,25 +171,27 @@ h3 {
     background: #2260cd;
     max-width: 80%;
     margin: 0 auto;
+    padding: 2.5%;
     -moz-box-shadow: 0 0 10px #3B4990;
     -webkit-box-shadow: 0 0 10px #3B4990;
     box-shadow: 0 0 10px #3B4990; }
   .project_card .project_description, .tumblr .project_description {
+    padding: 0px 2.5%;
     -moz-box-shadow: 0 0 10px #3B4990;
     -webkit-box-shadow: 0 0 10px #3B4990;
     box-shadow: 0 0 10px #3B4990; }
     .project_card .project_description p, .tumblr .project_description p {
-      width: 80%;
+      width: 85%;
       font-size: 1.1em;
       line-height: 1.4em;
-      margin: 20px;
+      margin: 10px;
       -moz-box-sizing: border-box;
       /* Firefox 1, probably can drop this */
       -webkit-box-sizing: border-box;
       /* Safari 3-4, also probably droppable */
       box-sizing: border-box;
       /* Everything else */
-      padding: 5px;
+      padding: 5px 0px;
       font: "ff-enzo-web", helvetica, sans-serif; }
   .project_card .buttons, .tumblr .buttons {
     margin: 0 auto;
@@ -271,7 +273,6 @@ h3 {
 
 .tumblr {
   margin: 20px auto;
-  padding: 10px;
   -moz-box-shadow: -7px -7px 7px #3B4990;
   -webkit-box-shadow: -7px -7px 7px #3B4990;
   box-shadow: -7px -7px 7px #3B4990; }
@@ -280,8 +281,9 @@ h3 {
     -webkit-box-shadow: 0 0 10px #3B4990;
     box-shadow: 0 0 10px #3B4990; }
   .tumblr p {
-    width: 80%;
+    width: 85%;
     margin: 10px auto;
+    padding: 5px 6%;
     font-size: 1.1em;
     line-height: 1.5em;
     background: #2260cd;
@@ -291,7 +293,6 @@ h3 {
     /* Safari 3-4, also probably droppable */
     box-sizing: border-box;
     /* Everything else */
-    padding: 10px;
     font: "ff-enzo-web", helvetica, sans-serif;
     -moz-box-shadow: 0 0 10px #3B4990;
     -webkit-box-shadow: 0 0 10px #3B4990;

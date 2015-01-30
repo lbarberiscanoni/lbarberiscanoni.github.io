@@ -175,20 +175,22 @@ h3 {
 		background: $eyeblue;
 		max-width: 80%;
 		margin: 0 auto;
+		padding: 2.5%; 
 		@include roundDropShadow;
 	}
 
 	.project_description {
 		@extend .project_name;
+		padding: 0px 2.5%;
 		@include roundDropShadow;
 
 		 p {
-		 	width: 80%;
+		 	width: 85%;
 			font-size: 1.1em;
 			line-height: 1.4em;
-			margin: 20px;
+			margin: 10px;
 			@include border-box;
-			padding: 5px;
+			padding: 5px 0px;
 			font: $enzo;
 		}
 	}
@@ -293,7 +295,6 @@ h3 {
 .tumblr {
 	@extend .project_card;
 	margin: 20px auto;
-	padding: 10px;
 	@include backDropShadow;
 
 	.post_name {
@@ -302,13 +303,13 @@ h3 {
 	}
 
 	p {
-		width: 80%;
+		width: 85%;
 		margin: 10px auto;
+		padding: 5px 6%;
 		font-size: 1.1em;
 		line-height: 1.5em;
 		background: $eyeblue;
 		@include border-box;
-		padding: 10px;
 		font: $enzo;
 		@include roundDropShadow;
 	}
