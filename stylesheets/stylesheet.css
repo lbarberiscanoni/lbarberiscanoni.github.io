@@ -307,6 +307,7 @@ h3 {
       font-size: 1.25em; }
 
 .twitter {
+  clear: both;
   margin: 20px auto;
   width: 80%;
   max-width: 550px; }
