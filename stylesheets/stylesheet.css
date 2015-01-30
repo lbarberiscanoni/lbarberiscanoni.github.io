@@ -83,10 +83,19 @@ nav {
     color: black; }
 
 h1 {
-  font-size: 3.8em;
-  line-height: 1.35em;
   text-align: center;
-  font: "ff-enzo-web", helvetica, sans-serif; }
+  line-height: 2.5em;
+  font: "ff-enzo-web", helvetica, sans-serif;
+  font-weight: cursive; }
+  h1 span {
+    font-size: 3.8em;
+    text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0, 0, 0, 0.15);
+    color: white; }
+  h1 span.space {
+    margin: 0 5%; }
+
+h1:nth-of-type(1) {
+  margin-top: 100px; }
 
 h2 {
   clear: both;
@@ -336,6 +345,80 @@ h3 {
   .project_card:nth-of-type(2n), .tumblr:nth-of-type(2n), .tumblr:nth-of-type(2n) {
     float: right; } }
 @media screen and (min-width: 1000px) {
+  h1 {
+    position: relative;
+    margin: 0 auto 70px auto;
+    width: 85%; }
+
+  h1:nth-of-type(1) {
+    margin-top: 0; }
+
+  h1:nth-of-type(2) {
+    margin: 35px auto;
+    width: 60%; }
+
+  h1 span {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-shadow: #22313F -2px 2px 9px;
+    font-size: 1.8em; }
+
+  span:nth-of-type(1) {
+    left: 60px;
+    color: #4f76bc; }
+
+  span:nth-of-type(2) {
+    left: 120px;
+    color: #5e82c2; }
+
+  span:nth-of-type(3) {
+    left: 180px;
+    color: #6d8dc7; }
+
+  span:nth-of-type(4) {
+    left: 240px;
+    color: #7c99cd; }
+
+  span:nth-of-type(5) {
+    left: 300px;
+    color: #8aa4d3; }
+
+  span:nth-of-type(6) {
+    left: 360px;
+    color: #99b0d8; }
+
+  span:nth-of-type(7) {
+    left: 420px;
+    color: #a8bbde; }
+
+  span:nth-of-type(8) {
+    left: 480px;
+    color: #b7c7e4; }
+
+  span:nth-of-type(9) {
+    left: 540px;
+    color: #c5d2e9; }
+
+  span:nth-of-type(10) {
+    left: 600px;
+    color: #d4deef; }
+
+  span:nth-of-type(11) {
+    left: 660px;
+    color: #e3e9f4; }
+
+  span:nth-of-type(12) {
+    left: 720px;
+    color: #f2f5fa; }
+
+  span:nth-of-type(13) {
+    left: 780px;
+    color: white; }
+
+  h2 {
+    margin-top: 40px; }
+
   .project_card, .tumblr, .tumblr {
     float: left;
     margin: 40px 3%; }

@@ -90,10 +90,24 @@ nav {
 }
 
 h1 {
-	font-size: 3.8em;
-	line-height: 1.35em;
 	text-align: center;
+	line-height: 2.5em;
 	font: $enzo;
+	font-weight: cursive;
+
+	span {
+		font-size: 3.8em;
+  		text-shadow: 4px 3px 0 #1d9d74,9px 8px 0 rgba(0,0,0,0.15);
+  		color: white;
+	}
+	
+	span.space {
+		margin: 0 5%;
+	}
+}
+
+h1:nth-of-type(1) {
+	margin-top: 100px;
 }
 
 h2 {
@@ -369,6 +383,12 @@ h3 {
 }
 
 @media screen and (min-width: 1000px) {
+
+	@import "titleTypography";
+
+	h2 {
+		margin-top: 40px;
+	}
 
 	.project_card, .tumblr {
 		float: left;
