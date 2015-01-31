@@ -45,6 +45,8 @@ $phi: 1.61803398875;
 
 $enzo: "ff-enzo-web",helvetica, sans-serif;
 
+$prater: "ff-prater-script-web",sans-serif;
+
 body {
 	background: $background;
 }
@@ -114,6 +116,7 @@ h2 {
 	font-size: 3em;
 	line-height: 1.35em;
 	text-align: center;
+	font-family: $prater;
 }
 
 h3 {

@@ -100,7 +100,8 @@ h2 {
   clear: both;
   font-size: 3em;
   line-height: 1.35em;
-  text-align: center; }
+  text-align: center;
+  font-family: "ff-prater-script-web", sans-serif; }
 
 h3 {
   text-align: center;
