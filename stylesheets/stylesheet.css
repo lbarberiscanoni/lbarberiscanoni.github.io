@@ -63,7 +63,7 @@ nav {
     border: 3px solid #6511b5;
     border-radius: 10px;
     text-align: center;
-    font: "ff-enzo-web", helvetica, sans-serif;
+    font-family: "ff-enzo-web", helvetica, sans-serif;
     font-size: 1.5em;
     -moz-box-sizing: border-box;
     /* Firefox 1, probably can drop this */
@@ -85,7 +85,7 @@ nav {
 h1 {
   text-align: center;
   line-height: 2.5em;
-  font: "ff-enzo-web", helvetica, sans-serif;
+  font-family: "ff-enzo-web", helvetica, sans-serif;
   font-weight: cursive; }
   h1 span {
     font-size: 3.8em;
@@ -102,7 +102,7 @@ h2 {
   font-size: 3em;
   line-height: 1.35em;
   text-align: center;
-  font: "ff-enzo-web", helvetica, sans-serif; }
+  font-family: "ff-enzo-web", helvetica, sans-serif; }
 
 h3 {
   text-align: center;
@@ -114,7 +114,7 @@ h3 {
   box-sizing: border-box;
   /* Everything else */
   padding: 3px;
-  font: "ff-enzo-web", helvetica, sans-serif; }
+  font-family: "ff-enzo-web", helvetica, sans-serif; }
 
 .separator {
   height: 85px;
@@ -129,7 +129,7 @@ h3 {
     margin: 30px auto;
     font-size: 1.25em;
     line-height: 1.35em;
-    font: "ff-enzo-web", helvetica, sans-serif; }
+    font-family: "ff-enzo-web", helvetica, sans-serif; }
     .about_me ul li {
       margin: 20px 0; }
 
@@ -201,7 +201,7 @@ h3 {
       box-sizing: border-box;
       /* Everything else */
       padding: 5px 0px;
-      font: "ff-enzo-web", helvetica, sans-serif; }
+      font-family: "ff-enzo-web", helvetica, sans-serif; }
   .project_card .buttons, .tumblr .buttons {
     margin: 0 auto;
     width: 80%; }
@@ -305,7 +305,7 @@ h3 {
     /* Safari 3-4, also probably droppable */
     box-sizing: border-box;
     /* Everything else */
-    font: "ff-enzo-web", helvetica, sans-serif;
+    font-family: "ff-enzo-web", helvetica, sans-serif;
     -moz-box-shadow: 0 0 10px #3B4990;
     -webkit-box-shadow: 0 0 10px #3B4990;
     box-shadow: 0 0 10px #3B4990; }
