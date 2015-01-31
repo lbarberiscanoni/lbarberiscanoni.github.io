@@ -85,7 +85,6 @@ nav {
 h1 {
   text-align: center;
   line-height: 2.5em;
-  font-family: "ff-enzo-web", helvetica, sans-serif;
   font-weight: cursive; }
   h1 span {
     font-size: 3.8em;
@@ -101,8 +100,7 @@ h2 {
   clear: both;
   font-size: 3em;
   line-height: 1.35em;
-  text-align: center;
-  font-family: "ff-enzo-web", helvetica, sans-serif; }
+  text-align: center; }
 
 h3 {
   text-align: center;
