@@ -284,6 +284,9 @@ h3 {
     bottom: 50px;
     visibility: visible; }
 
+.projectCode {
+  width: 45%; }
+
 .tumblr {
   margin: 20px auto;
   -moz-box-shadow: -7px -7px 7px #3B4990;
