@@ -1,0 +1,106 @@
+doctype html
+head
+    title Lorenzo's Portfolio
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(charset="UTF-8")
+    script(src="bower_components/jquery/dist/jquery.js")
+    link(rel="stylesheet", href="bower_components/bulma/css/bulma.css")
+    link(rel="stylesheet", href="stylesheets/spec.css")
+body
+    .container.is-fluid
+        h1.title.is-1.text-center Welcome to My Portfolio
+        .section
+            .columns
+                .column
+                    .card
+                        .card-image
+                            figure.image
+                                img(src="images/picA.jpeg")
+                        .card-content
+                            .media-content
+                                p.title.is-4.text-center Friend me on 
+                                a(href="https://www.facebook.com/login" target="blank")
+                                    img(src="images/fb.png" alt="facebook icon").image
+                .column
+                    .card
+                        .card-image
+                            figure.image
+                                img(src="images/picB.jpeg")
+                        .card-content
+                            .media-content
+                                p.title.is-4.text-center Checkout My Work on
+                                a(href="https://github.com/lbarberiscanoni" target="blank")
+                                    img(src="images/github.png" alt="facebook icon").image.is-128x128
+                .column
+                    .card
+                        .card-image
+                            figure.image
+                                img(src="images/picC.jpeg")
+                        .card-content
+                            .media-content
+                                p.title.is-4.text-center Add me on
+                                a(href="https://www.linkedin.com/in/lorenzo-barberis-canonico-612734aa" target="blank")
+                                    img(src="images/linkedin.png" alt="linkedin logo").image.is-128x128
+        .section
+            h2.title.is-2.text-center About Me
+            .columns
+                .column
+                    article.message.is-info
+                        .message-header
+                            h2.title.text-center My Skills
+                        .message-body
+                            h3.subtitle HTML5, CSS3, Sass, and jQuery
+                            h3.subtitle Mobile Dev (React & Apache Cordova)
+                            h3.subtitle Python & Web Scraping
+                            h3.subtitle R & Statistical Analysis
+                            h3.subtitle Financial Modeling
+                            h3.subtitle Photoshop & Illustrator
+                .column
+                    article.message.is-info
+                        .message-header
+                            h2.title.text-center Areas actively training in
+                        .message-body
+                            h3.subtitle Swift
+                            h3.subtitle Django
+                            h3.subtitle Web Typography
+                            h3.subtitle Machine Learning with Python
+                            h3.subtitle Advanced Mobile Animation
+                            h3.subtitle SQL
+        .section#projects
+            h2.title.is-2.text-center Projects
+        .section
+            .columns
+                .column.is-one-quarter
+                    .message.is-primary
+                        .message-header
+                            p.text-center Hobbies
+                    .message.message-body
+                        .content
+                            ul
+                                li Yoga (I do it everyday)
+                                li Tennis (I try to play every day)
+                                li Crossfit (I got into it recently thanks to a friend)
+                                li Movies (I watch an Academy-Award nominated movie a day)
+                                li Pro-Bono programming (I try to help non-profits by building small apps for them)
+                .column
+                    .twitter
+                        a(href="https://twitter.com/LolloYolo" data-widget-id="560981316045250560").twitter-timeline Tweets by @LolloYolo
+                .column.is-one-quarter
+                    .message.is-primary
+                        .message-header
+                            p.text-center Passions
+                    .message.message-body
+                        .content
+                            ul 
+                                li Filmmaking (my friends and I make short films sometimes)
+                                li Artificial Intelligence and its implications
+                                li Philosophy
+                                li Surrealist and Abstract art
+        footer.footer
+            .content.has-text-centered
+                p This site is by 
+                    a(href="https://www.linkedin.com/in/lorenzo-barberis-canonico-612734aa" target="blank") Lorenzo Barberis Canonico
+    script(src="scripts/projects.js")
+    script.
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
