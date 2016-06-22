@@ -10,37 +10,7 @@ body
     .container.is-fluid
         h1.title.is-1.text-center Welcome to My Portfolio
         .section
-            .columns
-                .column
-                    .card
-                        .card-image
-                            figure.image
-                                img(src="images/picA.jpeg")
-                        .card-content
-                            .media-content
-                                p.title.is-4.text-center Friend me on 
-                                a(href="https://www.facebook.com/login" target="blank")
-                                    img(src="images/fb.png" alt="facebook icon").image
-                .column
-                    .card
-                        .card-image
-                            figure.image
-                                img(src="images/picB.jpeg")
-                        .card-content
-                            .media-content
-                                p.title.is-4.text-center Checkout My Work on
-                                a(href="https://github.com/lbarberiscanoni" target="blank")
-                                    img(src="images/github.png" alt="facebook icon").image.is-128x128
-                .column
-                    .card
-                        .card-image
-                            figure.image
-                                img(src="images/picC.jpeg")
-                        .card-content
-                            .media-content
-                                p.title.is-4.text-center Add me on
-                                a(href="https://www.linkedin.com/in/lorenzo-barberis-canonico-612734aa" target="blank")
-                                    img(src="images/linkedin.png" alt="linkedin logo").image.is-128x128
+            .columns#af
         .section
             h2.title.is-2.text-center About Me
             .columns
@@ -101,6 +71,7 @@ body
                 p This site is by 
                     a(href="https://www.linkedin.com/in/lorenzo-barberis-canonico-612734aa" target="blank") Lorenzo Barberis Canonico
     script(src="scripts/projects.js")
+    script(src="scripts/components.js")
     script.
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 

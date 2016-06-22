@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
     var projectList = [
+        ["Deep Dreamer", "Making your computer dream crazy shit", "Written in Bash, Python, and C (bc of Tensorflow)", "https://github.com/lbarberiscanoni/deepDreamer"],
     	["Stanford RUF App", "Mobile App for Stanford's <a href='http://rufstanford.org'>Reformed University Fellowship</a>. It provides a central location for information about meetings, events and so on.", "Written in React and powered by Apache Cordova", "https://github.com/lbarberiscanoni/stanford-ruf", "#"],
     	["Booking Tracker", "Web App that helps <a href='http://rentashare.com'>Rentashare</a> and its house managers keep track of bookings across different properties.", "Written in jQuery with FullCalendar.js", "https://github.com/lbarberiscanoni/booking-tracker", "http://lbarberiscanoni.github.io/booking-tracker/"],
     	["Bill Tracker", "Web App for <a href='http://scyig.com'>the YMCA's Youth in Government program</a> to help conference directors, participants and advisors to track of legislation and schedule schedule changes throughout the course of the conference.", "Written in jQuery with a <a href='https://github.com/jesuscast/Youth-in-Goverment-app'>companion iphone app</a> in Swift", "https://github.com/lbarberiscanoni/billTracking", "http://lbarberiscanoni.github.io/billTracking/"],
