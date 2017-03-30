@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
     var projectList = [
+        ["WSJ Scraper", "Scripts to download all of the <a href='http://online.wsj.com/mdc/public/page/2_3021-gainnnm-gainer.html?mod=topnav_2_3021'>wall street journal's top 100 stocks</a>", "Written in Python", "https://github.com/lbarberiscanoni/wsj_scraper"],
+        ["Stockfuse Algo ", "Objects to automate your trading on <a href='https://stockfuse.com'>stockfuse.com</a>", "Written in Python", "https://github.com/lbarberiscanoni/stockfuse_algo"],
+        ["Dreamage", "App that filters pictures with paintings, making surreal and dream-like images", "Written in Python and React", "https://github.com/lbarberiscanoni/dreamage"],
         ["Deep Dreamer", "Making your computer dream crazy shit", "Written in Bash, Python, and C (bc of Tensorflow)", "https://github.com/lbarberiscanoni/deepDreamer"],
     	["Stanford RUF App", "Mobile App for Stanford's <a href='http://rufstanford.org'>Reformed University Fellowship</a>. It provides a central location for information about meetings, events and so on.", "Written in React and powered by Apache Cordova", "https://github.com/lbarberiscanoni/stanford-ruf", "#"],
     	["Booking Tracker", "Web App that helps <a href='http://rentashare.com'>Rentashare</a> and its house managers keep track of bookings across different properties.", "Written in jQuery with FullCalendar.js", "https://github.com/lbarberiscanoni/booking-tracker", "http://lbarberiscanoni.github.io/booking-tracker/"],
